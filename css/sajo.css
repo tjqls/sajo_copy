@@ -1,0 +1,35 @@
+/* 노멀라이징 */
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 라이브러리 */
+  
+  .cell{
+    float:left;
+  }
+  
+  .row::after{
+    display: block;
+    clear: both;
+    content:"";
+  }
+
+  .con{
+      width: 1200px;
+
+  }
+  
+  /* 스타일 */
+
+  .top-bar>h4{
+    text-align:center ;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 10px;
+    background-color: rgb(6, 6, 87);
+    color: white;
+
+  }
